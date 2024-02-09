@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <figure>
             <img src="./img/logo.webp" alt="Logo">
             <figcaption>
@@ -18,13 +18,21 @@
             </figcaption>
         </figure>
         <nav>
-            <a href="#">boton</a>
-            <a href="#">boton</a>
-            <a href="#">boton</a>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn" onclick="buttons()">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <div class="nav-btns" id="nav-btns">
+                <a href="#">boton</a>
+                <a href="#">boton</a>
+                <a href="#">boton</a>
+            </div>
         </nav>
     </header>
     <main></main>
     <footer></footer>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
