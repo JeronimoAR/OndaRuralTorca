@@ -63,6 +63,10 @@ header figure img {
     border-radius: 50%;
 }
 
+header figcaption {
+    font-size: 8px;
+}
+
 header nav {
     width: 30%;
     display: flex;
