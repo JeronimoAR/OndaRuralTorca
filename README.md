@@ -6,4 +6,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Creators Here
 
-https://jeronimoar.github.io/RuralTorca/
+https://jeronimoar.github.io/OndaRuralTorca/
