@@ -34,7 +34,7 @@ ol {
 }
 
 body {
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 header {
@@ -47,6 +47,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 100;
 }
 
 header figure {
@@ -105,10 +106,75 @@ header nav a:hover {
     border-bottom: 2px solid var(--white);
 }
 
-main {
-    height: 100vh;
-    background-color: #16293f;
+section {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.section-1 {
+    background-color: var(--darkblue);
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-1 aside {
+    width: 370px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 h1 {
+    font-family: 'Roboto Extra-Bold';
+    font-size: 40px;
+    color: var(--white);
+}
+
+.section-1 p {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 15px
+}
+
+.section-1 button {
+    color: var(--color2);
+    background-color: inherit;
+    border: 2px solid var(--color2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    align-self: flex-end;
+    transition: 0.5s;
+}
+
+.section-1 button:hover {
+    color: var(--darkblue);
+    border: 2px solid transparent;
+    background-color: var(--color2);
+    cursor: pointer;
+}
+
+.section-1 button:active {
+    color: var(--color2);
+    background-color: inherit;
+    border: 2px solid var(--color2);
+    transition: 0.1s;
+}
+
+.section-1 picture {
+    width: 420px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 @media (max-width: 490px) {
     .nav-btns {

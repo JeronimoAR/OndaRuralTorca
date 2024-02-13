@@ -8,7 +8,6 @@ window.addEventListener("resize", () => {
     list.style.left = "200%";
     size = window.innerWidth;
     flag = false;
-    console.log(flag);
 });
 
 if (window.innerWidth < 490) {
@@ -16,7 +15,6 @@ if (window.innerWidth < 490) {
         navBtns[i].addEventListener("click", () => {
             list.style.left = size + "px";
             flag = false;
-            console.log(flag);
         });
     }
 }
