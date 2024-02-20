@@ -68,6 +68,10 @@ header figcaption {
     font-size: 8px;
 }
 
+header figcaption a {
+    color: inherit;
+}
+
 header nav {
     width: 30%;
     display: flex;
@@ -119,6 +123,7 @@ section {
     background-color: var(--darkblue);
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section-1 aside {
@@ -158,6 +163,10 @@ section {
     cursor: pointer;
 }
 
+.section-1 button a {
+    color: inherit;
+}
+
 .section-1 button:active {
     color: var(--color2);
     background-color: inherit;
@@ -174,7 +183,115 @@ section {
     align-items: center;
 }
 
+.section-2 h1 {
+    color: var(--color2);
+    font-size: 36px;
+    font-family: 'Roboto Extra-bold';
+    text-align: center;
+}
 
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 300px;
+}
+
+.card {
+    width: 220px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 10px;
+    border: 2px solid var(--lightblue);
+    width: 150px;
+    height: 150px;
+}
+
+.card p {
+    width: 150px;
+}
+
+.section-3 blockquote {
+    color: var(--dark);
+    font-family: 'Roboto Italic';
+    font-size: 36px;
+    width: 60%;
+}
+
+.section-3 cite {
+    font-size: 20px;
+}
+
+.section-4 {
+    min-height: 200px;
+}
+
+.section-4 .callAction {
+    color: var(--darkblue);
+    background-color: var(--lightblue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 70%;
+    height: 100px;
+    padding: 20px;
+}
+
+.callAction p {
+    font-size: 15px;
+    color: var(--light1);
+}
+
+.callAction button {
+    width: 50px;
+    color: var(--darkblue);
+    background-color: inherit;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.callAction button a {
+    color: var(--darkblue);
+    background-color: inherit;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.callAction button:hover {
+    border: 2px solid var(--darkblue);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--darkblue);
+    color: var(--color2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    position: static;
+    bottom: 0;
+}
+
+footer a {
+    font-size: 20px;
+    color: inherit;
+}
 
 @media (max-width: 490px) {
     .nav-btns {
@@ -192,5 +309,48 @@ section {
         display: flex;
         position: absolute;
         right: 60px;
+    }
+
+    .section-3 blockquote {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    section {
+        min-height: 100px;
+    }
+
+    .section-1 aside {
+        margin: 10px;
+    }
+
+    .section-1 h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .section-1 p {
+        font-size: 15px;
+    }
+
+    .section-1 button {
+        align-self: center;
+    }
+
+    .section-3 blockquote {
+        font-size: 16px;
+    }
+
+    .section-3 cite {
+        font-size: 10px;
+    }
+
+    .section-4 h3 {
+        font-size: 12px;
+    }
+
+    .section-4 p {
+        font-size: 10px;
     }
 }
