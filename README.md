@@ -1,9 +1,7 @@
-RuralTorca
+Onda Rural Torca
 
 Nuestro blog
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Creators Here
+¿Buscas algo fresco, con música que te haga vibrar y temas que te interesen de verdad? ¡No busques más! Onda Rural es la emisora que te conecta con tu vibra.
 
 https://jeronimoar.github.io/OndaRuralTorca/
