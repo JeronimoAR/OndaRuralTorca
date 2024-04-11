@@ -176,11 +176,17 @@ section {
 
 .section-1 picture {
     width: 420px;
-    height: 200px;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-1 picture img{
+    width: 420px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
 }
 
 .section-2 h1 {
@@ -201,7 +207,7 @@ section {
 
 .card {
     width: 220px;
-    margin-bottom: 30px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,13 +217,20 @@ section {
 
 .card img {
     border-radius: 10px;
-    border: 2px solid var(--lightblue);
-    width: 150px;
+    border: 2px solid var(--color2);
+    width: 220px;
     height: 150px;
+    object-fit: cover;
 }
 
 .card p {
     width: 150px;
+}
+
+.section-3{
+    background-image: url("./img/Nature1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .section-3 blockquote {
@@ -343,6 +356,15 @@ footer a {
         align-self: center;
     }
 
+    .section-1 picture {
+        width: 350px;
+        height: auto;
+    }
+
+    .section-1 picture img{
+        width: 350px;
+    }
+
     .section-3 blockquote {
         font-size: 16px;
     }
@@ -357,5 +379,16 @@ footer a {
 
     .section-4 p {
         font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-1 picture {
+        width: 300px;
+        height: auto;
+    }
+
+    .section-1 picture img{
+        width: 300px;
     }
 }
