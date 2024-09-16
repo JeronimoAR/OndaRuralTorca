@@ -182,7 +182,7 @@ section {
     align-items: center;
 }
 
-.section-1 picture img{
+.section-1 picture img {
     width: 420px;
     height: auto;
     object-fit: cover;
@@ -227,7 +227,7 @@ section {
     width: 150px;
 }
 
-.section-3{
+.section-3 {
     background-image: url("./img/Nature1_1.webp");
     background-position: center;
     background-size: cover;
@@ -285,6 +285,37 @@ section {
 .callAction button:hover {
     border: 2px solid var(--darkblue);
     cursor: pointer;
+}
+
+#Nosotros_section-1 {
+    background-color: var(--darkblue);
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#Nosotros_section-1 h1 {
+    font-family: 'Roboto Extra-Bold';
+    font-size: 40px;
+    color: var(--white);
+}
+
+#Nosotros_section-1 p {
+    width: 70%;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 15px
+}
+
+#introduccion {
+    margin: 50px auto;
+    width: 70%;
+    align-items: start;
+    row-gap: 20px;
+    font-size: 15px;
+}
+
+#introduccion h1 {
+    align-self: center;
 }
 
 footer {
@@ -361,7 +392,7 @@ footer a {
         height: auto;
     }
 
-    .section-1 picture img{
+    .section-1 picture img {
         width: 350px;
     }
 
@@ -388,7 +419,7 @@ footer a {
         height: auto;
     }
 
-    .section-1 picture img{
+    .section-1 picture img {
         width: 300px;
     }
 }
