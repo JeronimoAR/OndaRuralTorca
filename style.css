@@ -133,7 +133,7 @@ section {
     flex-direction: column;
 }
 
-.section-1 h1 {
+.section-1 h2 {
     font-family: 'Roboto Extra-Bold';
     font-size: 40px;
     color: var(--white);
@@ -189,7 +189,7 @@ section {
     object-position: center;
 }
 
-.section-2 h1 {
+.section-2 h2 {
     color: var(--color2);
     font-size: 36px;
     font-family: 'Roboto Extra-bold';
@@ -293,7 +293,7 @@ section {
     row-gap: 30px;
 }
 
-#Nosotros_section-1 h1 {
+#Nosotros_section-1 h2 {
     font-family: 'Roboto Extra-Bold';
     font-size: 40px;
     color: var(--white);
@@ -314,7 +314,7 @@ section {
     font-size: 15px;
 }
 
-#introduccion h1 {
+#introduccion h2 {
     align-self: center;
 }
 
@@ -363,7 +363,7 @@ footer a {
     .section-3 blockquote {
         font-size: 20px;
     }
-    #Nosotros_section-1 h1 {
+    #Nosotros_section-1 h2 {
         margin-top: 10px;
         font-size: 20px;
     }
@@ -382,7 +382,7 @@ footer a {
         margin: 10px;
     }
 
-    .section-1 h1 {
+    .section-1 h2 {
         text-align: center;
         font-size: 20px;
     }
