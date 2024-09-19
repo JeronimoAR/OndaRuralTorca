@@ -37,6 +37,10 @@ body {
     padding-top: 70px;
 }
 
+a{
+    color: inherit;
+}
+
 header {
     position: fixed;
     top: 0;
